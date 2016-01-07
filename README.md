@@ -6,7 +6,7 @@ See how many deploys you have made.
 *Base URL:* https://heroku-api-barbershopio.herokuapp.com/
 
 ### GET - /heroku/deploys
-**params:** api
+**params:** api  
 **value:** HEROKU_API_KEY  
 DOCS: https://devcenter.heroku.com/articles/authentication  
 
@@ -16,16 +16,16 @@ DOCS: https://devcenter.heroku.com/articles/authentication
 # response
 
 {
-total: 100,
-successful: 100,
-failed: 0,
-apps: [
-{
-app: "my-app",
-total: 100,
-successful: 100,
-failed: 0
-}
-]
+  total: 100,
+  successful: 100,
+  failed: 0,
+  apps: [
+    {
+      app: "my-app",
+      total: 100,
+      successful: 100,
+      failed: 0
+    }
+  ]
 }
 ```
