@@ -1,5 +1,7 @@
 # Heroku API Demo
 
+I wanted to see how many deploys our team made in 2015 so I quickly built out this demo. Nothing fancy. Use as you wish.
+
 ## Routes
 See how many deploys you have made.
 
